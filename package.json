@@ -9,7 +9,7 @@
   "author": {
     "email": "john.owen.nixon@gmail.com",
     "name": "John Owen Nixon",
-    "url": "https://johnowennixon.com"
+    "url": "https://johnowennixon.com/"
   },
   "repository": {
     "type": "git",
@@ -18,11 +18,15 @@
   "engines": {
     "node": ">=14"
   },
+  "type": "commonjs",
   "files": [
     "okay.js"
   ],
   "bin": {
     "okay": "okay.js"
+  },
+  "scripts": {
+    "test": "exit 0"
   },
   "dependencies": {
     "ansis": "1.5.5"
