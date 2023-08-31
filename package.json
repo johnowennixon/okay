@@ -2,19 +2,22 @@
   "name": "@johnowennixon/okay",
   "version": "0.0.3",
   "description": "Command line script which outputs the text ‘Okay’ in green.",
+  "keywords": [
+    "okay"
+  ],
   "license": "0BSD",
   "author": {
-    "name": "John Owen Nixon",
     "email": "john.owen.nixon@gmail.com",
+    "name": "John Owen Nixon",
     "url": "https://johnowennixon.com"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/johnowennixon/okay.git"
   },
-  "keywords": [
-    "okay"
-  ],
+  "engines": {
+    "node": ">=14"
+  },
   "files": [
     "okay.js"
   ],
@@ -22,6 +25,7 @@
     "okay": "okay.js"
   },
   "dependencies": {
-    "chalk": "^4.1.0"
-  }
+    "ansis": "1.5.5"
+  },
+  "devDependencies": {}
 }

@@ -1,5 +1,5 @@
 #!/usr/bin/env node
 
-const chalk = require('chalk')
+const {green} = require('ansis')
 
-console.log(chalk.green('Okay'))
+console.log(green`Okay`)
