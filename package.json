@@ -1,6 +1,6 @@
 {
   "name": "@johnowennixon/okay",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Command line script which outputs the text ‘Okay’ in green.",
   "keywords": [
     "okay"
