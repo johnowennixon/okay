@@ -1,7 +1,7 @@
 {
   "name": "@johnowennixon/okay",
   "version": "2.0.0",
-  "description": "Command line script which outputs the text ‘Okay’ in green.",
+  "description": "Command line script which outputs the text ‘Okay’ in green",
   "keywords": [
     "okay"
   ],
@@ -16,9 +16,9 @@
     "url": "https://github.com/johnowennixon/okay.git"
   },
   "engines": {
-    "node": ">=14"
+    "node": ">=20"
   },
-  "type": "commonjs",
+  "type": "module",
   "files": [
     "okay.js"
   ],
@@ -26,10 +26,11 @@
     "okay": "okay.js"
   },
   "scripts": {
+    "lint": "biome check *.js",
     "test": "exit 0"
   },
   "dependencies": {
-    "ansis": "1.5.6"
+    "ansis": "3.1.1"
   },
   "devDependencies": {}
 }
